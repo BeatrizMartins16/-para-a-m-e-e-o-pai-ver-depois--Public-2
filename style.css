@@ -5,7 +5,7 @@
     --cor-de-fundo: #00030c;
 }
 
-body {
+.body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
 }
@@ -41,3 +41,35 @@ body {
     display: block;
     text-decoration: none;
 }
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px slid var(--cinza-secundario)
+}
+
+.container__aviso{
+font-size: 28px;
+font: weght 700px;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa{
+margin: 0 6em;
+}
+
+.seundario__imagem {
+width:80%;
+}
+
+.secundario{
+align-itens: center;
+margin: 0.1em;
+}
+
+.descricao__texto {
+color:(--cinza-secundario)
+}
+
